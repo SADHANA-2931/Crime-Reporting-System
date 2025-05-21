@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    <head>
+        <title>She team's</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <!--
+          Need a visual blank slate?
+          Remove all code in `styles.css`!
+        -->
+        <link rel="stylesheet" href="she.css" />
+    </head>
+
+<body>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+    <header id="header">
+        <!--  Brand Logo  -->
+        <a class="nav-brand" href="" target="_blank">
+            <img id="header-img" src="she.jpeg" alt="Pixel Skincare">
+        </a>
+
+        <!--  Toggle Menu for Mobile  -->
+
+        <input type="checkbox" id="toggle-menu" role="button">
+        <label for="toggle-menu" class="toggle-menu">Menu</label>
+
+        <!--  Menus  -->
+        <nav id="nav-bar" class="navbar">
+            <ul class="menu">
+                <li><a class="nav-link" href="#featured">Article</a></li>
+                <li><a class="nav-link" href="#collections">Complain Us</a></li>
+                <li><a class="nav-link" href="#about">Know more</a></li>
+                <li><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+            <ul class="social-menu">
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-img">
+            <img src="she1.png" alt="Pixel Skincare">
+        </div>
+        <div class="hero-text">
+            <h1>Feeling Not Safe</br> Click Here Now!</h1>
+            <a href="map.html" class="btn">Reach Us!!</a>
+        </div>
+    </div>
+
+    <!-- Featured Section -->
+    <section id="featured">
+        <div class="title title-left">
+            <span class="line"></span>
+            <h3>She Team's!</h3>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="she2.jpg" alt="Pixel Facial Cream">
+            </div>
+            <div class="text">
+                <h2>She Team's</h2>
+                <p>Women have the power to create, nurture and transform and yet for all these positive attributes
+                    have never been treated on par with men in all societies, cultures and classes of the world.
+                    Gender based discrimination and violence against women have been reinforced through prejudices,
+                    biases and attitudes that prevent them from reaching their full potential as individuals.
+                    .</p>
+                <p>
+                    The attitude that women exist purely to please man have resulted in films with sexist overtones
+                    where the Hero gains stature in proportion to the extent that he teases the hapless heroine and
+                    establishes his superiority. This thought process is reflected in domestic violence, sexual
+                    harassment at workplaces, and the euphemism called ”eve teasing” used throughout the Indian
+                    sub-continent to denote unwanted sexual remarks or advances to women in public places.
+
+                </p>
+                <a href="https://www.sheteamhydpolice.telangana.gov.in/about.html#:~:text=She%20teams%20is%20a%20first,CP%20Crimes%20and%20SIT."
+                    class=btn>Know more aboaut us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collections">
+        <div class="title title-right">
+            <span class="line line-right"></span>
+            <h3>Complaint us</h3>
+
+        </div>
+        <div class="head">
+            <h4>Share your problems<br>we are there for you</h4>
+        </div>
+
+        <div class="wrapper">
+            <div class="box box1">
+                <h4>Your Address</h4>
+
+                <div class="box-overlay">
+                    <textarea rows="4" cols="20" placeholder=" "></textarea>
+                </div>
+            </div>
+            <div class="box box2">
+                <h4>Up load your photo</h4>
+                <div class="box-overlay">
+                    <input type="file" accept="image/*">
+                </div>
+            </div>
+            <div class="box box3">
+                <h4>Write your complaint</h4>
+                <div class="box-overlay">
+                    <textarea rows="4" cols="20" placeholder=""></textarea>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="title title-left">
+            <span class="line"></span>
+            <h3>WOMEN EMPOWERMENT</h3>
+        </div>
+        <div class="wrapper">
+            <div class="text">
+                <p>
+                    EMPOWERMENT THROUGH SELF-DEFENSE: WHY EVERY WOMAN SHOULD LEARN
+                </p>
+                <p>Knowing self-defense techniques provides women with the means to protect themselves in potentially
+                    dangerous situations. Whether it's a late-night walk home, a solo travel adventure, or even just
+                    navigating everyday spaces, having the confidence to defend oneself can make all the difference.</p>
+                <p>Learning self-defense isn't just about physical techniques; it's also about mental strength and
+                    confidence. Knowing that you have the ability to protect yourself can boost self-esteem and empower
+                    you to assert boundaries in various aspects of life.</p>
+            </div>
+            <div class="video-wrapper">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fBnAMUkNM2k"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            
+                    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.youtube.com;">
+
+                    <iframe src="" frameborder="0"></iframe>
+                    <audio src=""></audio>
+            </div>
+        </div>
+    </section><br>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="wrapper">
+            <div class="form-wrapper">
+                <h4>For additional information Contact us</h4>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    <input type="submit" id="submit" value="OK" class="submit">
+                </form>
+            </div>
+            <div class="contact-wrapper">
+                <h4>Stay In Touch With us</h4>
+                <div class="wrapper">
+                    <ul class="social-menu">
+                        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <a class="contact-footer contact-tel" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 001-283-4892</a>
+                    <a class="contact-footer contact-email" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send an email</a>
+                </div>
+            </div>
+            <div class="copy-wrapper">
+                <h6><i class="fa fa-copyright" aria-hidden="true"></i> We are there for you <br> Our doors are always open for you <a href="https://codepen.io/ann_">SHE TEAM'S</a></h6>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

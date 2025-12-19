@@ -11,7 +11,7 @@ if(isset($_POST['s'])){
         $u_name=$_POST['name'];
         $u_id=$_POST['email'];
         $u_pass=$_POST['password'];
-        $u_addr=$_POST['adress'];
+        $u_addr=$_POST['address'];
         $a_no=$_POST['aadhar_number'];
         $gen=$_POST['gender'];
         $mob=$_POST['mobile_number'];
